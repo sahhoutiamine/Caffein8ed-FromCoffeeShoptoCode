@@ -26,9 +26,8 @@ Date: [01/31/2026]
 
 - Deverage->viewMenu() : return array of deverages
 - Waiter->createOrder() : create an order
-- Waiter->cancelOrder() : cancel an order
-- Waiter->cancelOrder() : cancel an order
-- Waiter->cancelOrder() : cancel an order
+- Waiter->cancelOrder(id) : cancel an order
 - Waiter->createTransaction() : create a transaction
 - Aowner->viewDailyTransaction() : view Daily Transaction
-- Aowner->updateDeverages() : Update Deverages
+- Aowner->updateDeverages(id) : Update Deverage
+- Aowner->updateDeverages(id) : create Deverage
