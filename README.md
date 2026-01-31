@@ -29,5 +29,5 @@ Date: [01/31/2026]
 - Waiter->cancelOrder(id) : cancel an order
 - Waiter->createTransaction() : create a transaction
 - Aowner->viewDailyTransaction() : view Daily Transaction
+- Aowner->createDeverages(id) : create Deverage
 - Aowner->updateDeverages(id) : Update Deverage
-- Aowner->updateDeverages(id) : create Deverage
