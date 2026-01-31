@@ -16,18 +16,18 @@ Date: [01/31/2026]
 3. CORE CLASSES (with key properties):
    Abstract class: User (id, name, email)
    class: Waiter extends User
-   class: Aower extends User
+   class: Aowner extends User
    class: Order (id, order_date, status)
-   class: Deverage (id, name, type, price)
-   class: Order_Beverages (id, order_id, id_drink, quantity)
+   class: Beverage (id, name, type, price)
+   class: Order_Beverages (id, order_id, beverage_id, quantity)
    class: Transaction (id, , transaction_date, order_id, total_price)
 
 4. KEY METHODS NEEDED:
 
-- Deverage->viewMenu() : return array of deverages
+- Beverage->viewMenu() : return array of Beverages
 - Waiter->createOrder() : create an order
 - Waiter->cancelOrder(id) : cancel an order
 - Waiter->createTransaction() : create a transaction
 - Aowner->viewDailyTransaction() : view Daily Transaction
-- Aowner->createDeverages(id) : create Deverage
-- Aowner->updateDeverages(id) : Update Deverage
+- Aowner->createBeverages(id) : create Beverage
+- Aowner->updateBeverages(id) : Update Beverage
