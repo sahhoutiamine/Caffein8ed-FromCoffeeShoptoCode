@@ -24,10 +24,11 @@ Date: [01/31/2026]
 
 4. KEY METHODS NEEDED:
 
-- [Method name]: [What it does and what class it belongs to]
-- Example: "Order->calculateTotal(): returns the sum of all beverage prices"
-
-5. CRITICAL DISCOVERIES:
-
-- What was your "aha!" moment?
-- What tricky problem did you solve?
+- Deverage->viewMenu() : return array of deverages
+- Waiter->createOrder() : create an order
+- Waiter->cancelOrder() : cancel an order
+- Waiter->cancelOrder() : cancel an order
+- Waiter->cancelOrder() : cancel an order
+- Waiter->createTransaction() : create a transaction
+- Aowner->viewDailyTransaction() : view Daily Transaction
+- Aowner->updateDeverages() : Update Deverages
